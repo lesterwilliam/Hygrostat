@@ -44,8 +44,8 @@ void ClearDisplay();                                                        // W
 // Setup/Init
 void setup(){
   // Set pin modes
-  pinMode(MINUS_BUTTON, INPUT);
-  pinMode(PLUS_BUTTON, INPUT);
+  pinMode(MINUS_BUTTON, INPUT_PULLUP);
+  pinMode(PLUS_BUTTON, INPUT_PULLUP);
   pinMode(RELAY_PIN, OUTPUT);
   
   // Preset relay
